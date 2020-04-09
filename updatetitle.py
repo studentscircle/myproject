@@ -8,7 +8,7 @@ import google.oauth2.credentials
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 
-VIDEO_ID = os.getenv("VIDEO_ID")
+VIDEO_ID = os.getenv("BpuIMdRYV40")
 FREQUENCY = int(os.getenv("FREQUENCY"))
 #MAIL_PASSWORD = "Test"
 
