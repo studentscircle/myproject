@@ -99,7 +99,7 @@ import urllib.parse
 
 
 #VIDEO_ID = "fs_l_rovfBk" #Test video Teja Swaroop Channel
-VIDEO_ID = os.getenv("VIDEO_ID")
+VIDEO_ID = os.getenv("BpuIMdRYV40")
 #VIDEO_ID = "jTIUgshJjds"
 #API_KEY = "AIzaSyBNAyk2TAuFy5zfHWGomG3dGyAPTx_t2cw"
 API_KEY = os.getenv("AIzaSyCFbXsL1QUbklEHZ0LNTK6FU-WNqSscVdA")
@@ -107,7 +107,7 @@ scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
 def getinfo():
 	resp = {}
-	url = "https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet&id=%s&key=%s"%(VIDEO_ID,API_KEY)
+	url = "https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet&id=%s&key=%s"%(BpuIMdRYV40,AIzaSyCFbXsL1QUbklEHZ0LNTK6FU-WNqSscVdA)
 	#urllib.parse.urlencode(url)
 
 	headers = {
