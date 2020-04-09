@@ -102,7 +102,7 @@ import urllib.parse
 VIDEO_ID = os.getenv("VIDEO_ID")
 #VIDEO_ID = "jTIUgshJjds"
 #API_KEY = "AIzaSyBNAyk2TAuFy5zfHWGomG3dGyAPTx_t2cw"
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("AIzaSyCFbXsL1QUbklEHZ0LNTK6FU-WNqSscVdA")
 scopes = ["https://www.googleapis.com/auth/youtube.readonly"]
 
 def getinfo():
